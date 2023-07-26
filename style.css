@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-size:border-box;
+
+
+}
+.main{
+    height:100vh;
+    width:100vw;
+
+}
+.nav{
+    font-size: 25px;
+    color:azure;
+    list-style: none;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+margin:30px;
+
+}
+#jo{
+    list-style: none;
+    
+}
+.hkj{
+    display:flex;
+    gap:40px;
+}
+.j{
+    font-size:30px;
+}
+
+
+.container{
+    width:70%;
+    margin:auto;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding:60px;
+    list-style: circle !important;
+    box-shadow:1px 20px 50px 30px black;
+    border-radius: 20px;
+    display: flex;
+    gap:60px;
+    
+    
+}
+ 
+#lol{
+    height:270px;
+    width:270px;
+    margin:20px;
+    border-radius: 20px;
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+    position:  relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+#lol:hover{
+    transform:scale(1.2)
+}
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+    
+.overlay{
+    position: absolute;
+    top:100px;
+    left:100px;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color:red;
+
+}
+.overlay:hover{
+   opacity: 1;
+
+}
